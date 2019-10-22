@@ -1,0 +1,46 @@
+{
+  "name": "myplanet",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect=5858 --signal SIGHUP --no-warnings index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vegchic/MyPlanet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vegchic/MyPlanet/issues"
+  },
+  "homepage": "https://github.com/vegchic/MyPlanet#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "bcrypt": "^2.0.1",
+    "eslint": "^4.19.1",
+    "esm": "^3.0.55",
+    "knex": "^0.14.6",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-multer": "^1.0.2",
+    "koa-passport": "^4.1.0",
+    "koa-redis": "^3.1.2",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.8.1",
+    "koa-static": "^4.0.3",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.5",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1"
+  }
+}
